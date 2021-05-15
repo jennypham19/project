@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.sidebar{
+	width:20%;
+	height:100vh;
+	float: left;
+	background:#F1A573;
+}
+.sidebar h1{
+	margin:52px 0px 0px 49px;
+}
+.sidebar ul{
+	margin:-40px 0px 0px  40px;
+	list-style-type: none;
+	padding-top: 50px;
+	cursor: pointer;
+}
+.content-admin{
+	width:80%;
+	height:100vh;
+	float:left;
+}
+.content-admin-top{
+	width:100%;
+	height:50px;
+	background:#B4B1B1;
+	position: relative;
+}
+.content-admin-top svg{
+	margin:5px 0px 0px 25px;
+}
+.user{
+	margin:-31px 0px 0px 1187px;
+}
+.info-user{
+	background: #ECD08C;
+	position:absolute;
+	z-index: 99;
+	width:150px;
+	height: 80px;
+	right:10px;
+}
+
+.info-user a{
+	text-decoration: none;
+	color:#000000;
+
+}
+.sidebar a{
+	text-decoration: none;
+	color: #000000;
+}
+.dropdown-menu ul li{
+	padding:10px;
+	margin-left:-39px;
+}/*
+.dropdown-menu{
+	display:none;
+}*/
+.menu svg{
+	margin:0px 0px -34px 13px;
+}
+.blog svg{
+	margin:0px 0px -34px 13px;
+}
+.bill svg{
+	margin:0px 0px -34px 13px;
+}
+.staff svg{
+	margin:0px 0px -34px 13px;
+}
+.page-admin svg{
+	margin:0px 0px -34px 13px;
+}
+.page-admin h3{
+	margin:12px 0px -4px 39px;
+}
+.dropdown-blog{
+	margin-left: 25px;
+	display: none;
+}
+.dropdown-bill ul li{
+	padding:10px;
+	margin-left:-39px;
+}
+/*.dropdown-bill{
+	display:none;
+}*/
+.dropdown-staff{
+	margin-left: 25px;
+	display: none;
+}
+.content-admin-top ul li{
+	list-style-type:none;
+}
+.content-admin-top a{
+	text-decoration: none;
+	color:#333333;
+}
+.info-admin{
+	background:#E9E8C1;
+	position: relative;
+	width:130px;
+	height:70px;
+	right:-1070px;
+	border-radius: 10px;
+	display: none;
+}
+ul li:hover{
+	background:#F0D581;
+	border-radius: 3px;
+	transition: 0.3s;
+	width:150px;
+}
+
+
+.open-menu > .dropdown-menu{
+	display: block;
+}
+
+.open-menu > ul{
+	display: block
+}
+
+.open-blog > .dropdown-blog{
+	display: block;
+}
+
+span.open-blog > ul{
+	display: block
+}
+.open-bill > .dropdown-bill{
+	display: block;
+}
+
+span.open-bill > ul{
+	display: block
+}
+.open-staff > .dropdown-staff{
+	display: block;
+}
+
+span.open-staff > ul{
+	display: block
+}
+.content-admin-bottom{
+	width:100%;
+	height:100vh;
+	
+}

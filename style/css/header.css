@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;	
+	margin:0;
+	padding:0;
+}
+.header{
+	width:100%;
+	height: 80px;
+	background: #F1A573;
+	z-index: 100000;
+	position: fixed;
+	top:0;
+}
+.header-left{
+	width:30%;
+	height:80px;
+	float: left;
+}
+.header-left h2{
+	font-family: Brush Script MT;
+	text-shadow: #4B4949 2px 3px 4px;
+	font-size: 45px;
+	margin:15px 0px 0px 140px;
+}
+.header-left a{
+	text-decoration: none;
+	color:black;
+	font-family: Brush Script MT;
+}
+.header-right{
+	float: right;
+	width:70%;
+	height:80px;
+}
+.header-right-top{
+	width: 100%;
+	height: 50%;
+}
+#header-right-bottom{
+	width: 100%;
+	height: 50%;
+	margin:0px auto;
+}
+#header-right-bottom ul.parent > li{
+	list-style-type:none;
+	float:left;
+	/*position: relative;*/
+	width:20%;
+	text-align: center;
+}
+#header-right-bottom ul.parent > li > a{
+	text-decoration: none;
+	line-height: 40px;
+	text-transform: uppercase;
+	color:#000000;
+	display: block;
+}
+#header-right-bottom ul.parent > li > a:hover{
+	background-color: #FF9966;
+	color:#EEEEEE;
+	transition: ease-in 0.2s;
+	-moz-transition:ease-in 0.2s;
+	-webkit-transition:ease-in 0.2s;
+}
+#header-right-bottom ul.children {
+	background-color: #F1A573;
+	min-height: 10px;
+	display: none;
+  	-webkit-animation-name: fade;
+	-webkit-animation-duration: 0.5s;
+	 animation-name: fade;
+	 animation-duration: 0.5s;
+	/*position: absolute;*/
+}
+@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+		 
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+#header-right-bottom ul.children >li {
+	list-style:none;
+	background-color: #F1A573;
+
+}
+#header-right-bottom ul.children > li > a{
+	text-decoration: none;
+	line-height: 40px;
+	color:#000000;
+	display: block;
+	border-top:1px solid #000000; 
+	text-align: center;
+	/*text-indent: 10px;*/
+}
+#header-right-bottom ul.children li a:hover{
+	background-color:#FF9966;
+	color:#EEEEEE;
+	transition:ease-in 0.2s;
+}
+#header-right-bottom ul.parent > li:hover ul.children{
+	display: block;
+}
+#input{
+	width:40%;
+	height:40px;
+	margin:0 10px 0 0;
+	border-radius: 25px;
+	border:solid #F1A573;
+	outline: none;
+	text-align: center;
+	line-height: 40px;
+	float:right;
+	position: relative;
+	right:30px;
+}
+.header-right-top button{
+	/*transform: translateX(-35px);*/
+	/*margin:10px 0 0 0px;*/
+	position: absolute;
+	right:50px;
+	top:12px;
+	background: none;
+	border:none;
+
+}
+
+
+
